@@ -1,0 +1,58 @@
+# Built artifacts
+*.apk
+*.ap_
+*.aab
+*.class
+*.dex
+*.aar
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local machine config
+local.properties
+
+# Firebase config - do not commit public Firebase project config
+google-services.json
+app/google-services.json
+**/google-services.json
+
+# IDE / Editor
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Android Studio / Android build
+captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+*.hprof
+
+# Kotlin
+.kotlin/
+
+# Keystore / signing
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Generated files
+generated/
+
+# Do NOT ignore Gradle Wrapper files
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
